@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: 76#Ht67
+    url: jdbc:mysql://121.43.148.120:3306/learnjdbc?useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8085
+mybatis:
+  config-location: classpath:mybatis-config.xml # mybatis配置文件
+  mapper-locations: classpath:mapper/*.xml # mapper的XML地址
+  type-aliases-package: com.xml.dataobject # 配置数据库实体包路径

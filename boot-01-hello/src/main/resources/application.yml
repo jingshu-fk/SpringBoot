@@ -1,0 +1,50 @@
+spring:
+  profiles:
+    active: prod
+
+---
+server:
+  port: 8083
+person:
+  name: shujingping
+  age: 27
+  happy: true
+  birth: 1994/11/19
+  maps:
+    k1: v1
+    k2: v2
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: 旺财
+    age: 6
+spring:
+  config:
+    activate:
+      on-profile: dev
+debug: true
+---
+server:
+  port: 8087
+person:
+  name: meishan
+  age: 25
+  happy: true
+  birth: 1996/05/12
+  maps:
+    k1: v1
+    k2: v2
+  lists:
+    - code
+    - girl
+    - music
+  dog:
+    name: 米西
+    age: 3.2
+spring:
+  config:
+    activate:
+      on-profile: prod
+debug: false  # 查看哪些自动配置了

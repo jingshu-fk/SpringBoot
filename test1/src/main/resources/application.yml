@@ -1,0 +1,18 @@
+# DataSource Config
+spring:
+  datasource:
+    username: root
+    password: 76#Ht67
+    url: jdbc:mysql://121.43.148.120:3306/studentmanager?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+server:
+  port: 8087
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+

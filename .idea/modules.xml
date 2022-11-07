@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SpringBoot.iml" filepath="$PROJECT_DIR$/.idea/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-01-hello/boot-01-hello.iml" filepath="$PROJECT_DIR$/boot-01-hello/boot-01-hello.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-02-jdbc/boot-02-jdbc.iml" filepath="$PROJECT_DIR$/boot-02-jdbc/boot-02-jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-03-mybatis/boot-03-mybatis.iml" filepath="$PROJECT_DIR$/boot-03-mybatis/boot-03-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot-04-xml/boot-04-xml.iml" filepath="$PROJECT_DIR$/boot-04-xml/boot-04-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-demo-01/security-demo-01.iml" filepath="$PROJECT_DIR$/security-demo-01/security-demo-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/validation/validation.iml" filepath="$PROJECT_DIR$/validation/validation.iml" />
+    </modules>
+  </component>
+</project>

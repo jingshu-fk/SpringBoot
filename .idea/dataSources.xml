@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="learnjdbc@121.43.148.120" uuid="f38958b2-c2f8-4919-b518-14a78118df46">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://121.43.148.120:3306/learnjdbc</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sm" uuid="a9c82acf-429a-4f8a-9633-b7b179ef06b9">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://121.43.148.120:3306/studentmanager</jdbc-url>
+    </data-source>
+  </component>
+</project>
