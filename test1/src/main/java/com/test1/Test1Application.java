@@ -11,7 +11,7 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 
 @SpringBootApplication
 @EnableAsync
-@EnableScheduling
+//@EnableScheduling
 @MapperScan("com.test1.mapper")
 public class Test1Application {
 
@@ -19,11 +19,11 @@ public class Test1Application {
         SpringApplication.run(Test1Application.class, args);
     }
 
-    @Bean
-    public TaskScheduler taskScheduler() {
-        ThreadPoolTaskScheduler taskScheduler = new ThreadPoolTaskScheduler();
-        taskScheduler.setPoolSize(10);
-        return taskScheduler;
-    }
+//    @Bean
+//    public TaskScheduler taskScheduler() {
+//        ThreadPoolTaskScheduler taskScheduler = new ThreadPoolTaskScheduler();
+//        taskScheduler.setPoolSize(10);
+//        return taskScheduler;
+//    }
 
 }
