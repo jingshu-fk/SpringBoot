@@ -7,9 +7,11 @@
       <module fileurl="file://$PROJECT_DIR$/boot-02-jdbc/boot-02-jdbc.iml" filepath="$PROJECT_DIR$/boot-02-jdbc/boot-02-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-03-mybatis/boot-03-mybatis.iml" filepath="$PROJECT_DIR$/boot-03-mybatis/boot-03-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot-04-xml/boot-04-xml.iml" filepath="$PROJECT_DIR$/boot-04-xml/boot-04-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/google-java/google-java.iml" filepath="$PROJECT_DIR$/google-java/google-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-demo-01/security-demo-01.iml" filepath="$PROJECT_DIR$/security-demo-01/security-demo-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/test1/test1.iml" filepath="$PROJECT_DIR$/test1/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transaction-demo/transaction-demo.iml" filepath="$PROJECT_DIR$/transaction-demo/transaction-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/validation/validation.iml" filepath="$PROJECT_DIR$/validation/validation.iml" />
     </modules>
   </component>

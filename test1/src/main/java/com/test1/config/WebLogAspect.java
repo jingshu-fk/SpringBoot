@@ -11,6 +11,7 @@ import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
 
 /**
  * WebLogAspect
@@ -35,6 +36,7 @@ public class WebLogAspect {
         // 开始打印请求日志
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
         HttpServletRequest request = attributes != null ? attributes.getRequest() : null;
+        Enumeration headerNames = request.getHeaderNames();
         // 打印请求相关参数
         logger.info("========================================== Start ==========================================");
         // 打印请求 url
@@ -47,6 +49,10 @@ public class WebLogAspect {
         logger.info("IP             : {}", request.getRemoteAddr());
         // 打印请求入参
         logger.info("Request Args   : {}", new Gson().toJson(joinPoint.getArgs()));
+        while (headerNames.hasMoreElements()) {
+            String headerName = (String)headerNames.nextElement();
+            logger.info(headerName + ":" + request.getHeader(headerName));
+        }
     }
 
     @After("webLog()")
@@ -61,7 +67,7 @@ public class WebLogAspect {
         long startTime = System.currentTimeMillis();
         Object result = proceedingJoinPoint.proceed();
         // 打印出参
-        logger.info("Response Args  : {}", new Gson().toJson(result));
+        logger.info("ResponseResponse Args  : {}", new Gson().toJson(result));
         // 执行耗时
         logger.info("Time-Consuming : {} ms", System.currentTimeMillis() - startTime);
         return result;

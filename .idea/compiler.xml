@@ -17,6 +17,8 @@
         <module name="boot-03-druid" />
         <module name="test1" />
         <module name="redis" />
+        <module name="google-java" />
+        <module name="transaction-demo" />
         <module name="validation" />
         <module name="boot-03-mybatis" />
       </profile>
@@ -32,11 +34,13 @@
       <module name="cache" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo-test" target="1.8" />
+      <module name="google-java" target="16" />
       <module name="Mybatis-Spring-Boot" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="security-demo-01" target="1.8" />
       <module name="shu" target="1.8" />
       <module name="test1" target="1.8" />
+      <module name="transaction-demo" target="1.8" />
       <module name="validation" target="1.8" />
       <module name="ZeroWdd" target="1.8" />
     </bytecodeTargetLevel>
@@ -54,10 +58,12 @@
       <module name="cache" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="demo-test" options="-parameters" />
+      <module name="google-java" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="security-demo-01" options="-parameters" />
       <module name="shu" options="-parameters" />
       <module name="test1" options="-parameters" />
+      <module name="transaction-demo" options="-parameters" />
       <module name="validation" options="-parameters" />
     </option>
   </component>

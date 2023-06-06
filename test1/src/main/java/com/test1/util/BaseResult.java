@@ -18,7 +18,7 @@ import java.util.Arrays;
 )
 public class BaseResult<T> {
     private static final long serialVersionUID = 1L;
-    public static final Integer SUCCESS_CODE = 0;
+    public static final Integer SUCCESS_CODE = 1;
     @ApiModelProperty("返回编码")
     private Integer code;
     @ApiModelProperty("错误信息")

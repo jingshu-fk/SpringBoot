@@ -1,11 +1,11 @@
-/**
- * @projectName SpringBoot
- * @package com.test1.controller
- * @className com.test1.controller.WebController
- */
+
 package com.test1.controller;
 
-import org.springframework.web.bind.annotation.*;
+import com.test1.util.CommonResult;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * WebController
@@ -16,17 +16,18 @@ import org.springframework.web.bind.annotation.*;
  */
 
 @RestController
-@RequestMapping("/hook")
 public class WebController {
-
+//    static final Counter MyRequests = Counter.build()
+//            .name("requests_total").help("Total requests.").register();
     @PostMapping("/message")
-    public String getMessage(@RequestBody Object a) {
-        return "I receive your alarm info";
+    public CommonResult getMessage(@RequestBody Object a) {
+        return CommonResult.ok("测试POST成功！");
     }
 
-    @GetMapping("/test")
-    public String testMsg() {
-        return "true";
+    @GetMapping("/message")
+    public CommonResult testMessage(@RequestBody Object a) {
+        return CommonResult.ok("测试GET成功！");
     }
+
 }
  
